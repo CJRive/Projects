@@ -14,6 +14,6 @@ namespace Monefi.Models.Domain.DashBoards
         public RiskProfile RiskProfile { get; set; }
 
         public List<BorrowerVerification> BorrowerVerifications { get; set; }
-
+        
     }
 }
