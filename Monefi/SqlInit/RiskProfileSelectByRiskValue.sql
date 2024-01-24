@@ -6,7 +6,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
 -- Author: Carlos Rivera
--- Create date: 07/24/2023
+-- Create date: 
 -- Description: Risk Profile Select by RiskValue to bring back results that match the range of Risk Value
 -- Code Reviewer:
 
