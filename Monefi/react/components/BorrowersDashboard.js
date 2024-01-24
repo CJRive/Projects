@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import debug from "sabio-debug";
+import debug from "monefi-debug";
 import dashBoardsService from "../../../services/dashboardService";
 import toastr from "toastr";
 import { formatDateTime } from "utils/dateFormater";
