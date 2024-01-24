@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Domain.RiskProfiles
+namespace Monefi.Models.Domain.RiskProfiles
 {
     public class RiskProfile
     {
