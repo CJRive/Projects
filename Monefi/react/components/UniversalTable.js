@@ -4,14 +4,14 @@ import PropTypes from "prop-types";
 import debug from "monefi-debug";
 import { useEffect } from "react";
 
-const DefaultTable = (props) => {
+const UniversalTable = (props) => {
   let columns = props.columns;
   let data = props.data || [];
 
   const table = useTable({ columns, data });
 
   const _logger = debug.extend("App");
-  const _loggerTC = _logger.extend("DefaultTable");
+  const _loggerTC = _logger.extend("UniversalTable");
 
   useEffect(() => {
     _loggerTC(props.data);
@@ -50,7 +50,7 @@ const DefaultTable = (props) => {
   );
 };
 
-DefaultTable.propTypes = {
+UniversalTable.propTypes = {
   columns: PropTypes.arrayOf(
     PropTypes.shape({
       Header: PropTypes.element.isRequired,
@@ -60,4 +60,4 @@ DefaultTable.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({})),
 };
 
-export default DefaultTable;
+export Universal UniversalTable;
