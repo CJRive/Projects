@@ -2,9 +2,9 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import DocumentsTable from "./borrowerinfo/VerificationsTable";
+import DocumentsTable from "./borrowerinfo/DefaultTable";
 
-function ApplicationDocumentsTable({ verifications }) {
+function ApplicationDocumentsTable({ Default }) {
   const documentsColumns = React.useMemo(
     () => [
       {
@@ -41,14 +41,14 @@ function ApplicationDocumentsTable({ verifications }) {
         </div>
       </Card.Header>
       <div className="borrower-table">
-        <DocumentsTable columns={documentsColumns} data={verifications} />
+        <DocumentsTable columns={documentsColumns} data={Default} />
       </div>
     </Card>
   );
 }
 
 ApplicationDocumentsTable.propTypes = {
-  verifications: PropTypes.arrayOf(
+  Default: PropTypes.arrayOf(
     PropTypes.shape({
       verificationType: PropTypes.shape({}),
       isVerified: PropTypes.shape({}),
