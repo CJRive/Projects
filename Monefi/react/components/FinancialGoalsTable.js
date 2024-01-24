@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import GoalsTable from "./borrowerinfo/VerificationsTable";
+import GoalsTable from "./borrowerinfo/DefaultTable";
 
 function FinancialGoalsTable({ goals }) {
   const goalsColumns = React.useMemo(
