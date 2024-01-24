@@ -1,5 +1,5 @@
 import React from "react";
-import LoansTable from "./borrowerinfo/VerificationsTable";
+import LoansTable from "./borrowerinfo/DefaultTable";
 import { Card } from "react-bootstrap";
 import { AiOutlineEye } from "react-icons/ai";
 import Pagination from "rc-pagination";
