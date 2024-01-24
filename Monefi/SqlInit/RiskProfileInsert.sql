@@ -9,7 +9,7 @@ GO
 
 -- =============================================
 -- Author: Carlos Rivera
--- Create date: 07/23/2023
+-- Create date: 
 -- Description: Risk Profile insert calculation of TotalValue from bridge. Executes Settings insert prior to Risk Profile insert
 -- Code Reviewer:
 
