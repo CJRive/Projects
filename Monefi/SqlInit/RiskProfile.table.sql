@@ -1,6 +1,5 @@
 USE [MoneFi]
 GO
-/****** Object:  Table [dbo].[RiskProfile]    Script Date: 7/26/2023 2:05:29 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
