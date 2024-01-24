@@ -1,0 +1,289 @@
+.dashboard {
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.dashboard .div {
+  background-color: #fcfcfc;
+  border: 1px none;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.box {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow:hidden;
+  box-shadow: 0px 12.13px 56.12px 1.52px #0000000f;
+
+
+}
+
+.loan-info .rectangle-wrapper {
+  border: 0px none;
+  height: 256px;
+  width: 100%;
+}
+
+.loan-info .rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 12.13px 56.12px 1.52px #0000000f;
+  height: 256px;
+  width: 100%;
+}
+
+
+.loan-table .rectangle-wrapper {
+  border: 0px none;
+  height: 100%;
+  width: 100%;  
+}
+
+.loan-table .rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 9.08px 37.81px 1px #0000000d;
+  height: 100%;
+  width: 100%;
+}
+
+.application-documents .rectangle-wrapper {
+  border: 0px none;
+  height: 100%;
+  width: 100%;
+}
+
+.application-documents .rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 9.08px 37.81px 1px #0000000d;
+  height: 100%;
+  width: 100%;
+}
+
+.financial-goals .rectangle-wrapper {
+  border: 0px none;
+  height: 100%;
+  width: 100%;
+}
+
+.financial-goals .rectangle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 9.08px 37.81px 1px #0000000d;
+  height: 100%;
+  width: 100%;
+}
+
+
+.payments .frame-wrapper {
+  border: 0px none;
+  height: 100%;
+  width: 100%;
+}
+
+.payments .frame {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 9.08px 37.81px 1px #0000000d;
+  height: 100%;
+  width: 100%;
+}
+
+.creditScore .frame-wrapper {
+  border: 0px none;
+  height: 100%;
+  width: 100%;
+}
+
+.creditScore .frame {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 9.08px 37.81px 1px #0000000d;
+  height: 100%;
+  width: 100%;
+}
+
+.calculator .frame-wrapper {
+  border: 0px none;
+  height: 100%;
+  width: 100%;
+}
+
+.calculator .frame {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 9.08px 37.81px 1px #0000000d;
+  height: 100%;
+  width: 100%;
+}
+
+.col-3.position-relative::after {
+  content:"";
+  position:absolute;
+  height: 138px;
+  top: -10%;
+  display: flex;
+  left: 100%;
+  border-left: 3px dotted #00FFA3;
+  transform: translateX(-50%);
+}
+
+.goal-title-bd{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1150px) {
+  .col-sm-3 {
+    width: 50%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .col-3.position-relative::after {
+    content:"";
+    position:absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    left: 100%;
+    border-left: 3px dotted #00FFA3;
+    transform: translateX(-50%);
+  
+  }
+}
+
+.borrower-table table {
+  width: 100%;
+  height: 100%;  
+  border-radius: 10px;
+}
+.borrower-table th {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+.borrower-table td {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  border-bottom: ghostwhite solid;
+}
+.borrower-table th {
+  text-align: left;
+}
+
+.borrower-table thead th {
+  text-align: left;
+  padding-left: 30px;
+  background-color: transparent; 
+
+}
+.borrower-table tbody td {
+  position: relative;
+  padding-left: 30px;
+}
+.status-cell {
+  background-color: #09c48c;
+  border-radius: 10px;
+  inline-size: min-content;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.borrower-table {
+  text-decoration: underline;
+}
+
+.borrower-table-text {
+  padding-left: 13px;
+  display: inline-block;
+  border-radius: 20px;
+  color: #B9B9B9;
+  font-weight: bold;
+  font-size: medium
+}
+.borrower-cell-text {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 20px;
+  color:#464e4e;
+  font-weight: 500;
+  font-size: medium;
+}
+.borrower-cell-text.status-pending {
+  margin-left: 10px;
+  background-color: #b6bdba;
+  outline: 1px solid #464e4e;
+}
+
+.borrower-cell-text.status-completed {
+  background-color: #cfede3;
+  outline: 1px solid #464e4e;
+}
+
+.borrower-cell-text.status-rejected {
+  margin-left: 10px;
+  background-color: #f7977f;
+  outline: 1px solid #464e4e;
+}
+
+.borrower-cell-text.status-incomplete {
+  background-color: #8ca8b8;
+  outline: 1px solid #464e4e;
+}
+
+.borrower-table {
+  width: 100%;
+  border-radius: 10px;
+  overflow-x: auto; 
+}
+
+.borrower-table th,
+.borrower-table td {
+  padding: 15px 10px; 
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  white-space: nowrap; 
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .borrower-table th,
+  .borrower-table td {
+    padding: 8px 5px; 
+  }
+
+  .borrower-table thead th {
+    padding-left: 10px; 
+  }
+
+  .borrower-table tbody td {
+    padding-left: 10px; 
+  }
+}
+
+
+
+
