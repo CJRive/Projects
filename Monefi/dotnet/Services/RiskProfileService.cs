@@ -1,11 +1,11 @@
 using Newtonsoft.Json;
-using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.RiskProfiles;
-using Sabio.Models.Requests.RiskProfiles;
-using Sabio.Services.Interfaces;
+using Monefi.Data;
+using Monefi.Data.Providers;
+using Monefi.Models;
+using Monefi.Models.Domain;
+using Monefi.Models.Domain.RiskProfiles;
+using Monefi.Models.Requests.RiskProfiles;
+using Monefi.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -15,7 +15,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services
+namespace Monefi.Services
 {
     public class RiskProfileService : IRiskProfileService
     {
