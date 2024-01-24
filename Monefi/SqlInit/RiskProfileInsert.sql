@@ -1,6 +1,6 @@
 USE [MoneFi]
 GO
-/****** Object:  StoredProcedure [dbo].[RiskProfile_InsertV2]    Script Date: 7/26/2023 2:05:29 PM ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -10,7 +10,7 @@ GO
 -- =============================================
 -- Author: Carlos Rivera
 -- Create date: 07/23/2023
--- Description: Risk Profile insert calculation of TotalValue from bridge Refactored for new lookup. Executes Settings insert prior to Risk Profile insert
+-- Description: Risk Profile insert calculation of TotalValue from bridge. Executes Settings insert prior to Risk Profile insert
 -- Code Reviewer:
 
 -- MODIFIED BY:
