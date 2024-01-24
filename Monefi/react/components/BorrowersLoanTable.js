@@ -1,5 +1,5 @@
 import React from "react";
-import LoansTable from "./borrowerinfo/DefaultTable";
+import LoansTable from "./borrowerinfo/UniversalTable";
 import { Card } from "react-bootstrap";
 import { AiOutlineEye } from "react-icons/ai";
 import Pagination from "rc-pagination";
@@ -130,4 +130,4 @@ BorrowerLoanTable.propTypes = {
     }),
   }),
 };
-export default React.memo(BorrowerLoanTable);
+export Universal React.memo(BorrowerLoanTable);
