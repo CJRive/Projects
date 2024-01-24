@@ -33,3 +33,43 @@ database, facilitating smooth information input and retrieval.
 • Complete weekly pull requests to production with manager and peer reviews using GitHub.
 
 • Conduct technical training lectures and code troubleshooting sessions with peer developers.
+
+
+
+Here is a look at what a user may see on their Borrowers Dashboard upon logging in:
+Upon logging in they are able to see their most recent loan application as well as other useful information to them with a few neat tools they can use to their advantage.
+
+![image](https://github.com/CJRive/Projects/assets/130215883/b93d6803-e56a-46a7-b1f0-f3268b93c76a)
+
+![image](https://github.com/CJRive/Projects/assets/130215883/42cc1202-ced4-4c09-a90e-3f0197cc691a)
+
+If a user is not yet set up with a Risk Profile they will be redirected to this page in order to get them started upon logging in.
+
+![image](https://github.com/CJRive/Projects/assets/130215883/fc901872-a40e-421d-adb0-2dcf6c86236a)
+
+Once a user begins to fill out personal information the form begins to populate and gives them a preview on what their Risk Score may be.
+
+![image](https://github.com/CJRive/Projects/assets/130215883/c47db8a2-237d-4d2b-944f-1f69c5211c50)
+
+As an admin or a lender you may view a list of Risk Profiles to better search through potential borrowers
+
+![image](https://github.com/CJRive/Projects/assets/130215883/26c22090-a1bf-4fe2-b7c5-960b7b7358d7)
+
+Furthermore, you can filter them by their Risk Assessment
+
+![image](https://github.com/CJRive/Projects/assets/130215883/aa273971-2656-423f-b8c8-5ab272759c3c)
+
+If needed you can go into their Risk Profile and adjust their scores to be more accurately respresented
+
+![image](https://github.com/CJRive/Projects/assets/130215883/7c0d585a-def9-456a-9a91-4e68df730704)
+
+
+
+
+
+
+
+
+
+
+
