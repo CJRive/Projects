@@ -2,9 +2,9 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import DocumentsTable from "./borrowerinfo/DefaultTable";
+import DocumentsTable from "./borrowerinfo/UniversalTable";
 
-function ApplicationDocumentsTable({ Default }) {
+function ApplicationDocumentsTable({ Universal }) {
   const documentsColumns = React.useMemo(
     () => [
       {
@@ -41,14 +41,14 @@ function ApplicationDocumentsTable({ Default }) {
         </div>
       </Card.Header>
       <div className="borrower-table">
-        <DocumentsTable columns={documentsColumns} data={Default} />
+        <DocumentsTable columns={documentsColumns} data={Universal} />
       </div>
     </Card>
   );
 }
 
 ApplicationDocumentsTable.propTypes = {
-  Default: PropTypes.arrayOf(
+  Universal: PropTypes.arrayOf(
     PropTypes.shape({
       verificationType: PropTypes.shape({}),
       isVerified: PropTypes.shape({}),
@@ -58,4 +58,4 @@ ApplicationDocumentsTable.propTypes = {
   ),
 };
 
-export default React.memo(ApplicationDocumentsTable);
+export Universal React.memo(ApplicationDocumentsTable);
