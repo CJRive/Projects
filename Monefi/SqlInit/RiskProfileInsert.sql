@@ -20,7 +20,7 @@ GO
 -- =============================================
 
 
-CREATE PROC [dbo].[RiskProfile_InsertV2]
+CREATE PROC [dbo].[RiskProfile_Insert]
 			@UserId int	
 			,@Amount decimal(15,2) = NULL
 			,@StatusTypeId int
@@ -49,7 +49,7 @@ DECLARE @Id int  = 0
 	(88), 
 	(99)  	
 	
-	EXECUTE dbo.RiskProfile_InsertV2 
+	EXECUTE dbo.RiskProfile_Insert 
 			@UserId
 			,@Amount	
 			,@StatusTypeId
