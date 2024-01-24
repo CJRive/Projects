@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import GoalsTable from "./borrowerinfo/DefaultTable";
+import GoalsTable from "./borrowerinfo/UniversalTable";
 
 function FinancialGoalsTable({ goals }) {
   const goalsColumns = React.useMemo(
@@ -53,4 +53,4 @@ FinancialGoalsTable.propTypes = {
   ),
 };
 
-export default React.memo(FinancialGoalsTable);
+export Universal React.memo(FinancialGoalsTable);
