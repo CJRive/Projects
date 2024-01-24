@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoneFi.Models.Requests.RiskProfiles
+namespace Monefi.Models.Requests.RiskProfiles
 {
     public class RiskProfileAddRequest
     {
